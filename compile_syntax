@@ -1,0 +1,2 @@
+g++ example_with_all.cpp -lboost_system -pthread -std=c++11
+g++ `kcutilmgr conf -i` -o kc1 kc1.cpp `kcutilmgr conf -l`
